@@ -14,7 +14,7 @@
 var https = require('use-https');
 
 https(); // true
-https('//site.com'); // "http://site.com"
+https('//site.com'); // "https://site.com"
 ```
 
 ## API
