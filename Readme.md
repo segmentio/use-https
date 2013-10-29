@@ -1,7 +1,6 @@
-
 # use-https
 
-  Determine whether scripts need to be loaded over HTTPS.
+  Determine whether scripts need to be loaded over HTTPS for the page to remain secure.
 
 ## Installation
 
