@@ -1,8 +1,8 @@
 {
   "name": "use-https",
   "repo": "segmentio/use-https",
-  "description": "Detemine whether scripts need to be loaded over HTTPS.",
-  "version": "0.0.1",
+  "description": "Determine whether scripts need to be loaded over HTTPS.",
+  "version": "0.1.0",
   "keywords": ["script", "load", "https", "chrome", "extension"],
   "license": "MIT",
   "development": {

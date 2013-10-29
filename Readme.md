@@ -1,7 +1,7 @@
 
 # use-https
 
-  Detemine whether scripts need to be loaded over HTTPS.
+  Determine whether scripts need to be loaded over HTTPS.
 
 ## Installation
 
@@ -9,16 +9,24 @@
 
 ## Example
 
+  At `https://example.com`...
+
 ```js
 var https = require('use-https');
-var url = https ? 'https:' + domain : 'http:' + domain;
+
+https(); // true
+https('//site.com'); // "http://site.com"
 ```
 
 ## API
 
-### useHttps
+### useHttps()
   
-  Boolean of whether you need to load any scripts over HTTPS to keep the document secure.
+  Return a `Boolean` of whether you need to load any scripts over HTTPS to keep the document secure.
+
+### useHttps(agnosticUrl)
+  
+  Return the `agnosticUrl` (starts with `//`) with either `https:` or `http:` prepended as the protocol.
 
 ## License
 
