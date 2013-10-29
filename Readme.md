@@ -1,4 +1,3 @@
-
 # use-https
 
   Detemine whether scripts need to be loaded over HTTPS.
@@ -11,6 +10,8 @@
 
 ```js
 var https = require('use-https');
+
+var domain = '//example.com';
 var url = https ? 'https:' + domain : 'http:' + domain;
 ```
 
