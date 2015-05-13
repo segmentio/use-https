@@ -1,0 +1,17 @@
+{
+  "name": "use-https",
+  "repository": "https://github.com/segmentio/use-https.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Determine whether scripts need to be loaded over HTTPS.",
+  "keywords": [
+    "chrome",
+    "extension",
+    "https",
+    "load",
+    "script"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
